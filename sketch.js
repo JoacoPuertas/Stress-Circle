@@ -2,7 +2,7 @@
 let circulos = [];
 
 function setup() {
-    createCanvas(500, 500);
+    createCanvas(windowWidth, windowHeight);
     circulos.push(new Circle(width / 2, height / 2, 100));
 }
 
