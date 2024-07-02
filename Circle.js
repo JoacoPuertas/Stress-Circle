@@ -18,7 +18,7 @@ class Circle {
     pintar() {
         if (this.sePinto) {
             this.contador++;
-            if (this.contador <= 100) {
+            if (this.contador <= 300) {
                 this.opacidad = 255;
             } else {
                 this.opacidad = 0;

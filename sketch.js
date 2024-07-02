@@ -12,7 +12,6 @@ function draw() {
         circulos[i].dibujar();
         circulos[i].pintar();
     }
-    text("contador: " + circulos[0].contador, 20, 20);
 }
 
 function mousePressed() {
